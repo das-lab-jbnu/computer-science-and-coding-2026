@@ -1,0 +1,297 @@
+/* 1. 프리텐다드 폰트 불러오기 (CDN) */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css');
+
+/* 2. 코딩용 폰트 불러오기 (선택사항) */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+
+body {
+    font-family: var(--font-main);
+    line-height: 1.7; /* 줄 간격을 조금 넓혀 가독성 향상 */
+    margin: 0; padding: 0;
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+    -webkit-font-smoothing: antialiased; /* 글씨를 더 부드럽게 출력 */
+}
+
+/* 제목 부분은 조금 더 두껍게 강조 */
+h1, h2, h3 {
+    font-family: var(--font-main);
+    font-weight: 700;
+    letter-spacing: -0.02em; /* 자간을 살짝 좁혀 전문적인 느낌 */
+    color: #1a2a3a;
+}
+
+/* 코드 예시가 있다면 이 폰트를 사용 */
+code, pre {
+    font-family: var(--font-code);
+    background-color: #f4f4f4;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+:root {
+    --das-green: #2e7d32;
+    --das-blue: #1565c0;
+    --text-dark: #2c3e50;
+    --bg-light: #fdfdfd;
+    /* 폰트 변수 설정 */
+    --font-main: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+    --font-code: 'JetBrains Mono', monospace;
+}
+
+
+/* Header & Nav */
+header {
+    background: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-bottom: 4px solid var(--das-green);
+}
+
+nav {
+    background: #333;
+    text-align: center;
+    position: sticky; top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover { background: #444; }
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: white;
+    padding: 3rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+h1, h2, h3 { color: var(--das-blue); }
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th { background: #f4f4f4; }
+
+/* Boxes */
+.card {
+    border-left: 5px solid var(--das-green);
+    background: #e8f5e9;
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
+
+.warning {
+    border-left: 5px solid #d32f2f;
+    background: #ffebee;
+    padding: 1.5rem;
+}
+
+/* 리소스 및 연락처 섹션 스타일 */
+.contact-section a {
+    color: var(--das-blue);
+    text-decoration: underline;
+}
+
+.resource-box {
+    background-color: #f0f4f8;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #d1d9e6;
+}
+
+.resource-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resource-box li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.resource-box a {
+    color: var(--das-green);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.resource-box a:hover {
+    text-decoration: underline;
+}
+
+.hint {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* 게시판 섹션 스타일 */
+.notice-board {
+    margin-top: 3rem;
+}
+
+.board-container {
+    border-top: 2px solid var(--das-blue);
+    background: white;
+}
+
+.board-header {
+    display: flex;
+    padding: 15px;
+    background: #f8f9fa;
+    font-weight: bold;
+    border-bottom: 1px solid #dee2e6;
+    text-align: center;
+}
+
+.board-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.board-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    transition: background 0.2s;
+}
+
+.board-item:hover {
+    background: #f1f8ff;
+}
+
+/* 게시판 열 너비 조절 */
+.col-cat, .tag { width: 80px; text-align: center; }
+.col-title, .title { flex: 1; padding-left: 20px; text-align: left; }
+.col-date, .date { width: 100px; text-align: center; font-size: 0.9rem; color: #777; }
+
+/* 태그 스타일 */
+.tag {
+    font-size: 0.75rem;
+    padding: 3px 8px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.tag.notice { background: #e3f2fd; color: #1565c0; }
+.tag.resource { background: #e8f5e9; color: #2e7d32; }
+.tag.event { background: #fff3e0; color: #ef6c00; }
+
+.title {
+    color: var(--text-dark);
+    text-decoration: none;
+}
+
+/* 중요 공지 강조 */
+.board-item.important {
+    background-color: #fffdf0;
+}
+.board-item.important .title {
+    font-weight: bold;
+}
+
+/* Calendar 전용 스타일 */
+.week-section {
+    margin-bottom: 2rem;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+}
+
+.week-header {
+    background: #f1f3f5;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.week-title {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--das-blue);
+}
+
+.week-date {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 600;
+}
+
+.module-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.module-item:last-child {
+    border-bottom: none;
+}
+
+.module-num {
+    display: inline-block;
+    background: var(--das-green);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.module-topic {
+    font-weight: 500;
+    color: #333;
+}
+
+/* 버튼 스타일 */
+.module-materials a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    transition: 0.2s;
+}
+
+.btn-slide {
+    background: #e7f5ff;
+    color: #1971c2;
+    border: 1px solid #a5d8ff;
+}
+
+.btn-finger {
+    background: #f8f0fc;
+    color: #9c36b5;
+    border: 1px solid #eebefa;
+}
+
+.module-materials a:hover {
+    opacity: 0.8;
+    transform: translateY(-1px);
+}

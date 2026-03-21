@@ -1,0 +1,64 @@
+[
+  {
+    "week": 1,
+    "date": "3/3 (화) & 3/5 (목)",
+    "modules": [
+      { "num": 1, "topic": "수업 소개", "lecture_pdf": "lectures/w1_mod_01_lecture.pdf", "finger_exercise": null },
+      { "num": 2, "topic": "환경 설정 및 파이썬 기초", "lecture_pdf": "lectures/w1_mod_02_lecture.pdf", "finger_exercise": "lectures/w1_mod_02_finger_exercise.pdf" }
+    ]
+  },
+  {
+    "week": 2,
+    "date": "3/10 (화) & 3/12 (목)",
+    "modules": [
+      { "num": 1, "topic": "Chapter 1: Statements", "lecture_pdf": "lectures/w2_mod_01_lecture.pdf", "finger_exercise": "lectures/w2_mod_01_finger_exercise.pdf" },
+      { "num": 2, "topic": "Chapter 2: Expressions", "lecture_pdf": "lectures/w2_mod_02_lecture.pdf", "finger_exercise": "lectures/w2_mod_02_finger_exercise.pdf", "video_url": "https://youtu.be/ONXWTzmUHYI" },
+      { "num": 3, "topic": "Chapter 3: Objects", "lecture_pdf": "lectures/w2_mod_03_lecture.pdf", "finger_exercise": "lectures/w2_mod_03_finger_exercise.pdf", "video_url": "https://youtu.be/nciedWgNga0" }
+    ]
+  },
+  {
+    "week": 3,
+    "date": "3/17 (화) & 3/19 (목)",
+    "modules": [
+      { "num": 1, "topic": "Chapter 4: Decisions", "lecture_pdf": "lectures/w3_mod_01_lecture.pdf", "finger_exercise": "lectures/w3_mod_01_finger_exercise.pdf" },
+      { "num": 2, "topic": "Chapter 5: Loops", "lecture_pdf": "lectures/w3_mod_02_lecture.pdf", "finger_exercise": "lectures/w3_mod_02_finger_exercise.pdf" },
+      { "num": 3, "topic": "Chapter 6: Functions", "lecture_pdf": "lectures/w3_mod_03_lecture.pdf", "finger_exercise": "lectures/w3_mod_03_finger_exercise.pdf" }
+    ]
+  },
+  {
+    "week": 4,
+    "date": "3/24 (화) & 3/26 (목)",
+    "modules": [
+      { "num": 1, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null },
+      { "num": 2, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null },
+      { "num": 3, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null }
+    ]
+  },
+  {
+    "week": 5,
+    "date": "3/31 (화) & 4/2 (목)",
+    "modules": [
+      { "num": 1, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null },
+      { "num": 2, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null },
+      { "num": 3, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null }
+    ]
+  },
+  {
+    "week": 6,
+    "date": "4/7 (화) & 4/9 (목)",
+    "modules": [
+      { "num": 1, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null },
+      { "num": 2, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null },
+      { "num": 3, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null }
+    ]
+  },
+  {
+    "week": 7,
+    "date": "4/14 (화) & 4/16 (목)",
+    "modules": [
+      { "num": 1, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null },
+      { "num": 2, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null },
+      { "num": 3, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null }
+    ]
+  }
+]

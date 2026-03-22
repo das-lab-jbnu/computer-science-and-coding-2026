@@ -29,7 +29,7 @@
     "week": 4,
     "date": "3/24 (화) & 3/26 (목)",
     "modules": [
-      { "num": 1, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null },
+      { "num": 1, "topic": "Visual Studio Code (VS Code)", "lecture_pdf": "lectures/w4_mod_01_lecture.pdf", "finger_exercise": "lectures/w4_mod_01_finger_exercise.pdf" },
       { "num": 2, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null },
       { "num": 3, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null }
     ]

@@ -47,7 +47,7 @@
         "quiz_answer": "lectures/quiz_answer.pdf" 
       },
       { "num": 2, "topic": "Visual Studio Code (VS Code)", "lecture_pdf": "lectures/w5_mod_02_lecture.pdf", "finger_exercise": "lectures/w5_mod_02_finger_exercise.pdf" },
-      { "num": 3, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null }
+      { "num": 3, "topic": "Chapter 7: Modules (7.1, 7.2, 7.3)", "lecture_pdf": "lectures/w5_mod_03_lecture.pdf", "finger_exercise": "lectures/w5_mod_03_finger_exercise.pdf" }
     ]
   },
   {

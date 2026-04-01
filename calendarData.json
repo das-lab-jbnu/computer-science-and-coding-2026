@@ -38,7 +38,14 @@
     "week": 5,
     "date": "3/31 (화) & 4/2 (목)",
     "modules": [
-      { "num": 1, "topic": "QUIZ", "lecture_pdf": null, "finger_exercise": null },
+      { 
+        "num": 1, 
+        "topic": "QUIZ", 
+        "lecture_pdf": null, 
+        "finger_exercise": null,
+        "quiz_pdf": "lectures/quiz.pdf",      
+        "quiz_answer": "lectures/quiz_answer.pdf" 
+      },
       { "num": 2, "topic": "Visual Studio Code (VS Code)", "lecture_pdf": "lectures/w5_mod_02_lecture.pdf", "finger_exercise": "lectures/w5_mod_02_finger_exercise.pdf" },
       { "num": 3, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null }
     ]

@@ -313,3 +313,27 @@ th { background: #f4f4f4; }
 .btn-video:hover {
     background-color: #CC0000; /* 마우스 올렸을 때 더 진한 빨강 */
 }
+
+/* 퀴즈 관련 버튼 스타일 예시 */
+.btn-quiz {
+    background-color: #3498db; /* 파란색 계열 */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-right: 5px;
+}
+
+.btn-answer {
+    background-color: #e74c3c; /* 빨간색 계열 */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.btn-quiz:hover, .btn-answer:hover {
+    opacity: 0.8;
+}

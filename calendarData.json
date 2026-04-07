@@ -54,8 +54,8 @@
     "week": 6,
     "date": "4/7 (화) & 4/9 (목)",
     "modules": [
-      { "num": 1, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null },
-      { "num": 2, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null },
+      { "num": 1, "topic": "Chapter 7: Modules", "lecture_pdf": "lectures/w6_mod_01_lecture.pdf", "finger_exercise": "lectures/w6_mod_01_finger_exercise.pdf" },
+      { "num": 2, "topic": "Chapter 9: Lists", "lecture_pdf": "lectures/w6_mod_02_lecture.pdf", "finger_exercise": "lectures/w6_mod_02_finger_exercise.pdf" },
       { "num": 3, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null }
     ]
   },

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Midterm Exam | CS & Coding 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* 시험 강조 스타일을 위한 추가 CSS (style.css에 포함 권장) */
+        .priority-chapter {
+            background-color: #fff4f4;
+            border-left: 5px solid #d9534f;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .chapter-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            list-style: none;
+            padding: 0;
+        }
+        .chapter-item {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #e9ecef;
+            text-align: center;
+        }
+        .highlight {
+            color: #d9534f;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div style="color: var(--das-blue); font-weight: bold;">DAS Lab (Defense & Advanced Security)</div>
+        <h1>중간고사 안내 (Midterm Exam)</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="syllabus.html">Syllabus</a>
+        <a href="calendar.html">Calendar</a>
+        <a href="calendar.html">Mid-Term</a>
+        <a href="project.html">Project</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>중간고사 범위 (Exam Coverage)</h2>
+            <p>2026학년도 봄학기 중간고사는 파이썬의 기초 문법부터 객체 지향의 핵심인 클래스까지를 다룹니다.</p>
+            
+            <ul class="chapter-list">
+                <li class="chapter-item">1. Statements</li>
+                <li class="chapter-item">2. Expressions</li>
+                <li class="chapter-item">3. Objects</li>
+                <li class="chapter-item">4. Decisions</li>
+                <li class="chapter-item">5. Loops</li>
+                <li class="chapter-item">6. Functions</li>
+                <li class="chapter-item">7. Modules</li>
+                <li class="chapter-item">9. Lists</li>
+                <li class="chapter-item">10. Dictionaries</li>
+                <li class="chapter-item">11. Classes</li>
+            </ul>
+        </section>
+
+        <section class="priority-chapter">
+            <h2>💡 출제 강조 사항 (Important!)</h2>
+            <p>이번 시험은 단순 문법 암기보다는 <strong>논리적 흐름과 구조적 설계</strong>의 이해를 중점적으로 평가합니다. 특히 아래의 챕터에서 다수의 문항이 출제될 예정입니다.</p>
+            <ul>
+                <li><span class="highlight">Chapter 4. Decisions:</span> 조건문을 활용한 논리 제어</li>
+                <li><span class="highlight">Chapter 5. Loops:</span> 반복문을 활용한 데이터 처리</li>
+                <li><span class="highlight">Chapter 6. Functions:</span> 코드 재사용 및 매개변수의 이해</li>
+                <li><span class="highlight">Chapter 11. Classes:</span> 객체 지향의 기초 및 데이터 캡슐화</li>
+            </ul>
+        </section>
+
+        <section class="notice-section">
+            <h2>시험 유의사항</h2>
+            <ul class="notice-list">
+                <li class="notice-item">
+                    <span class="date-badge">필독</span>
+                    <div class="notice-content">
+                        <p>시험은 오프라인으로 진행되며, <strong>부정행위 적발시 0점</strong> 처리하겠습니다.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

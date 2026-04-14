@@ -65,7 +65,15 @@
     "modules": [
       { "num": 1, "topic": "Chapter 11: Classes", "lecture_pdf": "lectures/w7_mod_01_lecture.pdf", "finger_exercise": "lectures/w7_mod_01_finger_exercise.pdf" },
       { "num": 2, "topic": "Chapter 11: Classes", "lecture_pdf": "lectures/w7_mod_02_lecture.pdf", "finger_exercise": "lectures/w7_mod_02_finger_exercise.pdf" },
-      { "num": 3, "topic": "TBA", "lecture_pdf": null, "finger_exercise": null }
+      { "num": 3, "topic": "Chapter 13: Inheritance", "lecture_pdf": "lectures/w7_mod_03_lecture.pdf", "finger_exercise": "lectures/w7_mod_03_finger_exercise.pdf" }
+    ]
+  },
+  {
+    "week": 8,
+    "date": "4/21 (화)",
+    "modules": [
+      { "num": 1, "topic": "Mid-term", "lecture_pdf": null, "finger_exercise": null }
     ]
   }
+  
 ]

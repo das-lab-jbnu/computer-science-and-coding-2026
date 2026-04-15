@@ -64,7 +64,7 @@
     "date": "4/14 (화) & 4/16 (목)",
     "modules": [
       { "num": 1, "topic": "Chapter 11: Classes", "lecture_pdf": "lectures/w7_mod_01_lecture.pdf", "finger_exercise": "lectures/w7_mod_01_finger_exercise.pdf" },
-      { "num": 2, "topic": "Chapter 11: Classes", "lecture_pdf": "lectures/w7_mod_02_lecture.pdf", "finger_exercise": "lectures/w7_mod_02_finger_exercise.pdf" },
+      { "num": 2, "topic": "Chapter 11: Classes", "lecture_pdf": "lectures/w7_mod_02_lecture.pdf", "finger_exercise": "lectures/w7_mod_02_finger_exercise.pdf", "video_url": "https://youtu.be/KOU9-C_YvyM"},
       { "num": 3, "topic": "Chapter 13: Inheritance", "lecture_pdf": "lectures/w7_mod_03_lecture.pdf", "finger_exercise": "lectures/w7_mod_03_finger_exercise.pdf" }
     ]
   },

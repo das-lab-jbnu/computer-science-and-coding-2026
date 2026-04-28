@@ -74,6 +74,14 @@
     "modules": [
       { "num": 1, "topic": "Mid-term", "lecture_pdf": null, "finger_exercise": null }
     ]
+  },
+  {
+    "week": 9,
+    "date": "4/28 & 4/30",
+    "modules": [
+      { "num": 1, "topic": "Software Engineering Introduction", "lecture_pdf": "lectures/w9_mod_01_lecture.pdf", "finger_exercise": null },
+      { "num": 2, "topic": "Warrior Game", "lecture_pdf": "lectures/w9_mod_02_lecture.pdf", "finger_exercise": null, "download_file": "lectures/w9_mod_02_warrior_game.zip" }
+    ]
   }
-  
+
 ]

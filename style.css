@@ -291,6 +291,12 @@ th { background: #f4f4f4; }
     border: 1px solid #eebefa;
 }
 
+.btn-download {
+    background: #e6fcf5;
+    color: #087f5b;
+    border: 1px solid #96f2d7;
+}
+
 .module-materials a:hover {
     opacity: 0.8;
     transform: translateY(-1px);

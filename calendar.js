@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     // 기존 버튼 로직
                     const pdfBtn = mod.lecture_pdf ? `<a href="${mod.lecture_pdf}" class="btn-slide">강의자료</a>` : '';
                     const fingerBtn = mod.finger_exercise ? `<a href="${mod.finger_exercise}" class="btn-finger">Finger Exercise</a>` : '';
+                    const downloadBtn = mod.download_file ? `<a href="${mod.download_file}" class="btn-download" download>Download</a>` : '';
                     const videoBtn = mod.video_url ? `<a href="${mod.video_url}" class="btn-video" target="_blank">강의영상</a>` : '';
 
                     // [추가 부분] 퀴즈 및 정답지 버튼 로직
@@ -25,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <span class="module-topic">${mod.topic}</span>
                             </div>
                             <div class="module-materials">
-                                ${pdfBtn} ${fingerBtn} ${videoBtn} ${quizBtn} ${answerBtn}
+                                ${pdfBtn} ${fingerBtn} ${videoBtn} ${downloadBtn} ${quizBtn} ${answerBtn}
                             </div>
                         </div>`;
                 });

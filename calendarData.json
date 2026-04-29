@@ -77,10 +77,10 @@
   },
   {
     "week": 9,
-    "date": "4/28 & 4/30",
+    "date": "4/28 (화) & 4/30 (목)",
     "modules": [
       { "num": 1, "topic": "Software Engineering Introduction", "lecture_pdf": "lectures/w9_mod_01_lecture.pdf", "finger_exercise": null },
-      { "num": 2, "topic": "Warrior Game", "lecture_pdf": "lectures/w9_mod_02_lecture.pdf", "finger_exercise": null, "download_file": "lectures/w9_mod_02_warrior_game.zip" }
+      { "num": 2, "topic": "SE - Game Coding Example", "lecture_pdf": "lectures/w9_mod_02_lecture.pdf", "finger_exercise": null, "download_file": "lectures/w9_mod_02_warrior_game.zip" }
     ]
   }
 

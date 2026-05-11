@@ -82,6 +82,21 @@
       { "num": 1, "topic": "Software Engineering Introduction", "lecture_pdf": "lectures/w9_mod_01_lecture.pdf", "finger_exercise": null },
       { "num": 2, "topic": "SE - Game Coding Example", "lecture_pdf": "lectures/w9_mod_02_lecture.pdf", "finger_exercise": null, "download_file": "lectures/w9_mod_02_warrior_game.zip" }
     ]
+  },
+  {
+    "week": 11,
+    "date": "5/12 (화) & 5/14 (목)",
+    "modules": [
+      {
+        "num": 1,
+        "topic": "Software Engineering - Evaluation System",
+        "lecture_pdf": "lectures/w11_mod_01_lecture.pdf",
+        "finger_exercise": null,
+        "video_file": "lectures/w11_demo_student.mp4",
+        "download_file": "lectures/se_evaluation_system.zip",
+        "download_label": "Evaluation System"
+      }
+    ]
   }
 
 ]
